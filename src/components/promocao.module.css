@@ -1,0 +1,42 @@
+.promocao{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 3rem;
+}
+
+.promocao img {
+    width: 85%;
+    height: 27rem;
+}
+
+@media screen and (max-width: 768px) {
+    .promocao {
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .promocao img {
+        width: 100%;
+        height: 12rem;
+    }
+}
+
+/* Estilos para telas muito pequenas (menos de 480px) */
+@media screen and (max-width: 480px) {
+    .promocao {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    .promocao img {
+        width: 100%;
+        height: 12rem;
+    }
+}

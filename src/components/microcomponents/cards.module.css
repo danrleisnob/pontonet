@@ -1,0 +1,102 @@
+.card{
+    width: 20rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0rem 3rem;
+    background-color: blue;
+    color: white;
+    border-radius: 1rem;
+    -webkit-box-shadow: 0px 0px 33px -15px rgba(0,0,0,1);
+    -moz-box-shadow: 0px 0px 33px -15px rgba(0,0,0,1);
+    box-shadow: 0px 0px 33px -15px rgba(0,0,0,1);
+}
+
+.assinar{
+    width: 11rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 1rem;
+    background-color: white;
+    color: black;
+    border-radius: 1rem;
+}
+
+.velocidade h1{
+    font-size: 2.5rem;
+    margin-top: 1rem;
+}
+
+.beneficios{
+    margin-top: 1rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.beneficios p{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 1rem;
+}
+
+.valor{
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin: 1rem 0rem;
+}
+
+.valormes{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.valormes h1{
+    font-size: 2rem;
+}
+
+.icons{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    margin-top: 1rem;
+}
+
+.icons p{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    font-weight: 600;
+}
+
+.MdOutlineLiveTv{
+    font-size: 2rem;
+}
+
+.ancoraWhats{
+    width: 10rem;
+    height: 3rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+    border-radius: 1rem;
+    background-color: rgb(238, 95, 0);
+    cursor: pointer;
+    margin: 2rem 0rem;
+}
+
+.ancoraWhats a{
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    font-size: 1rem;
+    font-weight: 600;
+    color: white;
+    text-decoration: none;
+}

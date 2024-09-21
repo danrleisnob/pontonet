@@ -1,0 +1,121 @@
+.headers {
+    width: 100%;
+    height: 5rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 1rem;
+    padding: 0rem 8rem;
+}
+
+img {
+    width: 12rem;
+    height: 4rem;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+}
+
+.ancoraPhone,
+.ancoraWhats {
+    width: 16rem;
+    height: 3rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+    margin-left: 2rem;
+    border-radius: 1rem;
+    background-color: rgb(16, 0, 243);
+    cursor: pointer;
+    overflow: hidden; /* Esconde conteúdo que ultrapassa */
+}
+
+.ancoraWhats {
+    background-color: green;
+}
+
+.FaPhoneAlt,
+.FaWhatsapp {
+    font-size: 1.5rem;
+    color: rgb(255, 123, 0); /* Cor do ícone do telefone */
+}
+
+.FaWhatsapp {
+    color: rgb(255, 255, 255); /* Cor do ícone do WhatsApp */
+}
+
+.ancoraPhone a,
+.ancoraWhats a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    text-decoration: none;
+    font-size: 1rem;
+    font-weight: 600;
+    font-family: "Kanit", sans-serif;
+    color: white;
+    gap: 1rem;
+}
+
+.linkText {
+    margin-left: 5px; 
+}
+
+@media screen and (max-width: 768px) {
+    .linkText {
+        display: none; 
+    }
+
+    .ancoraPhone,
+    .ancoraWhats {
+        width: 40px;
+        height: 40px; 
+        border-radius: 50%; 
+        justify-content: center; 
+    }
+
+    .ancoraPhone a span, .ancoraWhats a span {
+        display: none;
+    }
+
+    .FaPhoneAlt,
+    .FaWhatsapp {
+        font-size: 1.9rem; 
+        padding: 0.3rem;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .headers {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: row;
+        gap: 10rem;
+    }
+
+    img {
+        width: 6rem;
+        height: 2.5rem;
+    }
+
+    .ancoraPhone,
+    .ancoraWhats {
+        width: 100%;
+        height: 2.2rem;
+    }
+
+    .ancoraPhone a,
+    .ancoraWhats a {
+        font-size: 0.75rem;
+    }
+}
