@@ -45,7 +45,7 @@ export default function Ofertas() {
                             </div>
                     </div>
                     <div className={style.ancoraWhats}>
-                        <a href="/"><FaWhatsapp className={style.FaWhatsapp} /> Assinar Agora!</a>
+                        <a href="http://wa.me/5581995393615"><FaWhatsapp className={style.FaWhatsapp} /> Assinar Agora!</a>
                     </div>
                 </div>
 
